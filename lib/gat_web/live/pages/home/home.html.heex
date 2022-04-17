@@ -1,0 +1,300 @@
+<div>
+  <%= with_locale(@locale, fn -> %>
+  <main class="lg:relative">
+    <div class="w-full pt-16 pb-20 mx-auto text-center max-w-7xl lg:py-48 ltr:lg:text-left rtl:lg:text-right">
+      <div class="px-4 lg:w-1/2 sm:px-8 xl:pe-16">
+        <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+          <span class="block rtl:leading-snug xl:inline"><%= gettext("Start your Pilot Career") %></span>
+          <span class="block text-indigo-600 rtl:leading-snug xl:inline"><%= gettext("Obtain the EASA ATPL today") %></span>
+        </h1>
+        <p class="max-w-md mx-auto mt-3 text-lg text-slate-500 sm:text-xl md:mt-5 md:max-w-3xl">
+          <%= gettext("Start your career with the best license in the world") %>
+        </p>
+        <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+          <div class="rounded-md shadow">
+            <%= live_redirect(gettext("Apply now"), to: Routes.page_path(@socket, :contact), class: "flex items-center justify-center w-full px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:text-lg md:px-10") %>
+          </div>
+          <div class="mt-3 rounded-md shadow sm:mt-0 sm:ms-3">
+            <%= live_redirect(gettext("Our Courses"), to: Routes.course_index_path(@socket, :index), class: "flex items-center justify-center w-full px-6 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-slate-50 md:py-4 md:text-lg md:px-10") %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 ltr:lg:right-0 rtl:lg:left-0 lg:w-1/2 lg:h-full">
+      <img class="absolute inset-0 object-cover object-center w-full h-full" src={Routes.static_path(@socket, "/images/atpl-integrated.jpg")} alt="">
+    </div>
+  </main>
+  <!-- Features section -->
+  <div class="relative py-16 bg-white sm:py-24 lg:py-32">
+    <div class="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="text-base font-semibold tracking-wider text-indigo-600 uppercase">
+        <%= gettext("Facilities") %>
+      </h2>
+      <p class="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+        <%= gettext("Gulf Air Academy Aviation Training Organization") %>
+      </p>
+      <p class="mx-auto mt-5 text-xl text-slate-500 max-w-prose">
+        <%= gettext("Gulf Air Academy is the only academy with both its headquarters & operations located in Athens, providing quality experience, premises and ease of life for our students.") %>
+      </p>
+      <div class="mt-12">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="pt-6">
+            <div class="flow-root px-6 pb-8 rounded-lg bg-slate-100">
+              <div class="-mt-6">
+                <div>
+                  <span class="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
+                    <!-- Heroicon name: outline/cloud-upload -->
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="mt-8 text-lg font-medium tracking-tight text-slate-900">
+                  <%= gettext("Why Greece?") %>
+                </h3>
+                <p class="mt-5 text-base text-slate-500"><%= gettext("The weather is one of the main factors influencing aviation training, and it rarely creates issues in Greece! Thanks to fantastic weather conditions, we schedule flights 340 days a year, which adds to the safety of our student’s training.") %></p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6">
+            <div class="flow-root px-6 pb-8 rounded-lg bg-slate-100">
+              <div class="-mt-6">
+                <div>
+                  <span class="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
+                    <!-- Heroicon name: outline/lock-closed -->
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="mt-8 text-lg font-medium tracking-tight text-slate-900">
+                  <%= gettext("Why Gulf Air Academy?") %>
+                </h3>
+                <p class="mt-5 text-base text-slate-500">
+                  <%= gettext("Established based on expert studies from around the world, Gulf Air Academy is taking the aviation training industry to a new level by using state-of-the-art teaching technologies & methods, assuring the best quality of training for our Future Pilots.") %>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6">
+            <div class="flow-root px-6 pb-8 rounded-lg bg-slate-100">
+              <div class="-mt-6">
+                <div>
+                  <span class="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
+                    <!-- Heroicon name: outline/shield-check -->
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="mt-8 text-lg font-medium tracking-tight text-slate-900">
+                  <%= gettext("Multi-national crew") %>
+                </h3>
+                <p class="mt-5 text-base text-slate-500">
+                  <%= gettext("With a crew originating from 7+ different countries we present a friendly adaptive, multi-national atmosphere, that can help anyone fit in. Our professional multi-lingual staff (English /Arabic/Greek...) is always there to help our students.") %>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6">
+            <div class="flow-root px-6 pb-8 rounded-lg bg-slate-100">
+              <div class="-mt-6">
+                <div>
+                  <span class="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
+                    <!-- Heroicon name: outline/refresh -->
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="mt-8 text-lg font-medium tracking-tight text-slate-900">
+                  <%= gettext("Our Goal") %>
+                </h3>
+                <p class="mt-5 text-base text-slate-500">
+                  <%= gettext("At Gulf Air Academy we aim on providing the highest training standards in the best environment there can be, assuring that our students will remain focused on their goal: “Achieve excellence in becoming pilots”") %>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6">
+            <div class="flow-root px-6 pb-8 rounded-lg bg-slate-100">
+              <div class="-mt-6">
+                <div>
+                  <span class="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
+                    <!-- Heroicon name: outline/cog -->
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="mt-8 text-lg font-medium tracking-tight text-slate-900">
+                  <%= gettext("Studying materials") %>
+                </h3>
+                <p class="mt-5 text-base text-slate-500">
+                  <%= gettext("Gulf Air Academy uses the best material in the industry, cooperating with CATS Aviation, one of the best providers in the UK & the world for the ground and distance learning material.") %>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6">
+            <div class="flow-root px-6 pb-8 rounded-lg bg-slate-100">
+              <div class="-mt-6">
+                <div>
+                  <span class="inline-flex items-center justify-center p-3 bg-indigo-600 rounded-md shadow-lg">
+                    <!-- Heroicon name: outline/server -->
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+                    </svg>
+                  </span>
+                </div>
+                <h3 class="mt-8 text-lg font-medium tracking-tight text-slate-900">
+                  <%= gettext("Testimonials") %>
+                </h3>
+                <p class="mt-5 text-base text-slate-500">
+                  <%= gettext("At Gulf Air Academy, our students satisfaction is our ultimate goal. See what Gulf Air Academy students have to say about a variety of services that we provided.") %>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ################################## -->
+  <div class="max-w-md px-4 py-10 mx-auto sm:max-w-3xl sm:px-6 sm:py-16 lg:max-w-7xl lg:px-8 lg:py-24">
+    <div class="overflow-hidden bg-gray-200 divide-y divide-gray-200 rounded-lg shadow sm:divide-y-0 sm:grid sm:grid-cols-2 sm:gap-px">
+      <div class="relative p-6 bg-white sm:rounded-tr-none group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+        <div>
+          <span class="inline-flex p-3 text-teal-700 bg-teal-100 rounded-lg ring-4 ring-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+            </svg>
+          </span>
+        </div>
+        <div class="mt-8">
+          <h3 class="text-lg font-medium">
+            <%= live_redirect(to: Routes.page_path(@socket, :why_us), class: "focus:outline-none") do %>
+              <!-- Extend touch target to entire panel -->
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <%= gettext("Gulf Air Academy") %>
+            <% end %>
+          </h3>
+          <p class="mt-2 text-sm text-gray-500"><%= gettext("Gulf Air Academy is the first Arabic-European EASA Approved Training Organization, with a combined experience of over 40 years in the industry.") %></p>
+        </div>
+        <span class="absolute text-gray-300 pointer-events-none top-6 ltr:right-6 rtl:left-6 group-hover:text-gray-400" aria-hidden="true">
+          <svg class="w-6 h-6 rtl:-rotate-90 ltr:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+          </svg>
+        </span>
+      </div>
+      <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+        <div>
+          <span class="inline-flex p-3 text-purple-700 bg-purple-100 rounded-lg ring-4 ring-white">
+            <!-- Heroicon name: outline/badge-check -->
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+            </svg>
+          </span>
+        </div>
+        <div class="mt-8">
+          <h3 class="text-lg font-medium">
+            <%= live_redirect(to: Routes.page_path(@socket, :facilities), class: "focus:outline-none") do %>
+              <!-- Extend touch target to entire panel -->
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <%= gettext("Facilities") %>
+            <% end %>
+          </h3>
+          <p class="mt-2 text-sm text-gray-500"><%= gettext("Gulf Air Academy is the only academy with both its headquarters & operations located in Athens, providing quality experience, premises and ease of life for our students.") %></p>
+        </div>
+        <span class="absolute text-gray-300 pointer-events-none top-6 ltr:right-6 rtl:left-6 group-hover:text-gray-400" aria-hidden="true">
+          <svg class="w-6 h-6 rtl:-rotate-90 ltr:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+          </svg>
+        </span>
+      </div>
+      <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+        <div>
+          <span class="inline-flex p-3 rounded-lg bg-sky-100 text-sky-700 ring-4 ring-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 rotate-45 fill-current" viewBox="0 -256 1792 1792">
+              <g id="g4" transform="matrix(0.70710678,-0.70710678,-0.70710678,-0.70710678,898.14773,1786.3393)">
+                <path id="path6" d="m 1397,1324 q 0,-87 -149,-236 l -240,-240 143,-746 1,-6 q 0,-14 -9,-23 L 1079,9 q -9,-9 -23,-9 -21,0 -29,18 L 753,593 508,348 Q 576,110 576,96 576,82 567,73 L 503,9 Q 494,0 480,0 462,0 452,16 L 297,296 17,451 q -17,9 -17,28 0,14 9,23 l 64,65 q 9,9 23,9 14,0 252,-68 L 593,753 18,1027 q -18,8 -18,29 0,14 9,23 l 64,64 q 9,9 23,9 4,0 6,-1 l 746,-143 240,240 q 149,149 236,149 32,0 52.5,-20.5 20.5,-20.5 20.5,-52.5 z"/>
+              </g>
+            </svg>
+          </span>
+        </div>
+        <div class="mt-8">
+          <h3 class="text-lg font-medium">
+            <%= live_redirect(to: Routes.page_path(@socket, :fleet), class: "focus:outline-none") do %>
+              <!-- Extend touch target to entire panel -->
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <%= gettext("Fleet") %>
+            <% end %>
+          </h3>
+          <p class="mt-2 text-sm text-gray-500">
+            <%= gettext("We have a wonderful fleet of small planes, you will enjoy the experience of flying with them.") %>
+          </p>
+        </div>
+        <span class="absolute text-gray-300 pointer-events-none top-6 ltr:right-6 rtl:left-6 group-hover:text-gray-400" aria-hidden="true">
+          <svg class="w-6 h-6 rtl:-rotate-90 ltr:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+          </svg>
+        </span>
+      </div>
+      <div class="relative p-6 bg-white group focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500">
+        <div>
+          <span class="inline-flex p-3 text-yellow-700 bg-yellow-100 rounded-lg ring-4 ring-white">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+              <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+            </svg>
+          </span>
+        </div>
+        <div class="mt-8">
+          <h3 class="text-lg font-medium">
+            <%= live_redirect(to: Routes.page_path(@socket, :faq), class: "focus:outline-none") do %>
+              <!-- Extend touch target to entire panel -->
+              <span class="absolute inset-0" aria-hidden="true"></span>
+              <%= gettext("Q&A") %>
+            <% end %>
+          </h3>
+          <p class="mt-2 text-sm text-gray-500"><%= gettext("We have listed some questions and answers, commonly known as Frequently Asked Questions (FAQ). These are some basic questions that most potential students commonly ask when contacting Gulf Air Academy.") %></p>
+        </div>
+        <span class="absolute text-gray-300 pointer-events-none top-6 ltr:right-6 rtl:left-6 group-hover:text-gray-400" aria-hidden="true">
+          <svg class="w-6 h-6 rtl:-rotate-90 ltr:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20 4h1a1 1 0 00-1-1v1zm-1 12a1 1 0 102 0h-2zM8 3a1 1 0 000 2V3zM3.293 19.293a1 1 0 101.414 1.414l-1.414-1.414zM19 4v12h2V4h-2zm1-1H8v2h12V3zm-.707.293l-16 16 1.414 1.414 16-16-1.414-1.414z" />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- This example requires Tailwind CSS v2.0+ -->
+  <div class="bg-indigo-700">
+    <div class="px-4 py-16 mx-auto max-w-7xl sm:py-20 sm:px-6 lg:px-8">
+      <div class="flow-root mt-8 lg:mt-10">
+        <div class="flex flex-wrap justify-between -mt-4 -ml-8 lg:-ml-4">
+          <div class="flex flex-grow flex-shrink-0 mt-4 ml-8 lg:flex-grow-0 lg:ml-4">
+            <img class="h-16" src={Routes.static_path(@socket, "/images/aviationways.png")} alt="Tuple">
+          </div>
+          <div class="flex flex-grow flex-shrink-0 mt-4 ml-8 lg:flex-grow-0 lg:ml-4">
+            <img class="h-16" src={Routes.static_path(@socket, "/images/easawhite.png")} alt="Mirage">
+          </div>
+          <div class="flex flex-grow flex-shrink-0 mt-4 ml-8 lg:flex-grow-0 lg:ml-4">
+            <img class="h-16" src={Routes.static_path(@socket, "/images/cats.png")} alt="StaticKit">
+          </div>
+          <div class="flex flex-grow flex-shrink-0 mt-4 ml-8 lg:flex-grow-0 lg:ml-4">
+            <img class="h-16" src={Routes.static_path(@socket, "/images/icao.png")} alt="Transistor">
+          </div>
+          <div class="flex flex-grow flex-shrink-0 mt-4 ml-8 lg:flex-grow-0 lg:ml-4">
+            <img class="h-16" src={Routes.static_path(@socket, "/images/phantec.png")} alt="Workcation">
+          </div>
+          <div class="flex flex-grow flex-shrink-0 mt-4 ml-8 lg:flex-grow-0 lg:ml-4">
+            <img class="h-16" src={Routes.static_path(@socket, "/images/caa.png")} alt="Workcation">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end) %>
+</div>

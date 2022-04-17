@@ -1,0 +1,437 @@
+# # "msgid"s in this file come from POT (.pot) files.
+# #
+# # Do not add, change, or remove "msgid"s manually here as
+# # they're tied to the ones in the corresponding POT file
+# # (with the same domain).
+# #
+# # Use "mix gettext.extract --merge" or "mix gettext.merge"
+# # to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: lib/gat_web/live/components/footer/footer.html.heex:6
+msgid "About"
+msgstr "عنا"
+
+#: lib/gat_web/live/components/footer/footer.html.heex:9
+#: lib/gat_web/live/components/header/header.ex:15 lib/gat_web/live/pages.ex:38
+msgid "Contact"
+msgstr "تواصل معنا"
+
+#: lib/gat_web/live/components/header/header.ex:9 lib/gat_web/live/pages.ex:35
+msgid "Home"
+msgstr "الرئيسية"
+
+#: lib/gat_web/live/components/header/header.ex:10 lib/gat_web/live/pages.ex:53
+#: lib/gat_web/live/pages.ex:56
+msgid "Courses"
+msgstr "الدورات"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:18
+msgid "20 Mohamed El-Maqreef St."
+msgstr "٢٠ ش محمد المقريف."
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:20
+msgid "Cairo, EGYPT"
+msgstr "القاهرة، مصر"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:34
+#: lib/gat_web/live/pages/contact/contact.html.heex:72
+#: lib/gat_web/templates/user_session/new.html.heex:39
+msgid "Email"
+msgstr "الإيميل"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:58
+msgid "Full name"
+msgstr "الإسم الكامل"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:11
+msgid "Get in touch"
+msgstr "تواصل معنا"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:116
+msgid "Message"
+msgstr "الرسالة"
+
+#: lib/gat_web/live/course_live/index.html.heex:40
+msgid "More info"
+msgstr "مزيد من المعلومات"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:19
+msgid "Nasr City, 17210"
+msgstr "مدينة نصر، ١٧٢١٠"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:24
+msgid "Phone number"
+msgstr "رقم التليفون"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:133
+msgid "Submit"
+msgstr "ارسل"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:13
+msgid "We are here to help you, please feel free to send us your inquiry and we will get to you very soon."
+msgstr "نحن هنا لمساعدتك ، لا تتردد في إرسال استفسارك إلينا وسنصل إليك قريبا جدا."
+
+#: lib/gat_web/live/course_live/index.html.heex:19
+#: lib/gat_web/live/pages/home/home.html.heex:18
+msgid "Our Courses"
+msgstr "دوراتنا"
+
+#: lib/gat_web/live/pages/home/home.html.heex:15
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:51
+msgid "Apply now"
+msgstr "سجل الأن"
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:10
+msgid "Choosing the right Academy, is the first step towards your Career."
+msgstr "اختيار الأكاديمية المناسبة هو الخطوة الأولى نحو حياتك المهنية."
+
+#: lib/gat_web/live/components/header/header.ex:12 lib/gat_web/live/pages.ex:41
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:5
+#: lib/gat_web/live/pages/home/home.html.heex:31
+#: lib/gat_web/live/pages/home/home.html.heex:206
+msgid "Facilities"
+msgstr "خدمات"
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:13
+msgid "Gulf Air Academy is the first Arabic-European EASA Approved Training Organization, with a combined experience of over 40 years in the industry and with 80+ active students from 15 different nationalities. We currently have two operating bases in Athens and Megara"
+msgstr "أكاديمية طيران الخليج هي أول منظمة تدريب عربية أوروبية معتمدة من EASA ، مع خبرة مشتركة تزيد عن 40 عامًا في الصناعة ومع أكثر من 80 طالبًا نشطًا من 15 جنسية مختلفة. لدينا حاليًا قاعدتان للعمليات في أثينا وميجارا"
+
+#: lib/gat_web/live/components/footer/footer.html.heex:26
+msgid "Gulf Air Training. All rights reserved."
+msgstr "جلف إير تريننج. جميع الحقوق محفوظة."
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:41
+msgid "Located in one of the best districts in Athens, Gulf Air academy is the only academy with its headquarters & operation in Athens providing quality experience, premises and ease of life for our students."
+msgstr "تقع أكاديمية طيران الخليج في واحدة من أفضل المناطق في أثينا ، وهي الأكاديمية الوحيدة التي يقع مقرها الرئيسي وتشغيلها في أثينا ، مما يوفر تجربة عالية الجودة ومباني ويسهل الحياة لطلابنا."
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:38
+msgid "Our Location"
+msgstr "موقعنا"
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:23
+msgid "The Weather"
+msgstr "الطقس"
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:26
+msgid "The weather is one of the main factors influencing aviation training, and it rarely creates issues in Greece! Thanks to fantastic weather conditions, we schedule flights 340 days a year, which adds to the safety of our student’s training. This helps assure that they are on track and are not forced to delay flights due to bad weather."
+msgstr "يعتبر الطقس من العوامل الرئيسية التي تؤثر على التدريب على الطيران ، ونادراً ما يخلق مشاكل في اليونان! بفضل الظروف الجوية الرائعة ، نقوم بجدولة الرحلات الجوية 340 يومًا في السنة ، مما يزيد من أمان تدريب طلابنا. هذا يساعد على ضمان أنهم على الطريق الصحيح وليسوا مجبرين على تأخير الرحلات الجوية بسبب سوء الأحوال الجوية."
+
+#: lib/gat_web/live/components/header/header.ex:11 lib/gat_web/live/pages.ex:44
+msgid "Why us"
+msgstr "لماذا نحن"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:22
+msgid "10 Km from Athens International Airport"
+msgstr "على بعد 10 كم من مطار أثينا الدولى"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:18
+msgid "2 Km from the HCAA Examination Center"
+msgstr "2 كم من مركز امتحانات HCAA"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:21
+msgid "4 Km from the EASA Medical Certificate Center"
+msgstr "4 كم من مركز الشهادات الطبية EASA"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:19
+msgid "4 Km from the Embassy District"
+msgstr "4 كم من حي السفارات"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:20
+msgid "4 Km from the Resident Permit and Tax Offices"
+msgstr "4 كم من تصاريح الإقامة ومكاتب الضرائب"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:23
+msgid "5 Star and 4 Star Hotels in the District"
+msgstr "فنادق 5 نجوم و 4 نجوم في المنطقة"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:29
+msgid "Contact us"
+msgstr "تواصل معنا"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:16
+msgid "Every organization needs a Headquarters, and ours is proudly situated in the heart of Athens. The location was chosen keeping our cadet’s work-life balance in mind, allowing them to easily get to and from their classes, and other locations required for training such as the Airport and off-site Simulator, but at the same time easily access the best Athens has to offer."
+msgstr "تحتاج كل منظمة إلى مقر ، ويقع مقرنا بفخر في قلب أثينا. تم اختيار الموقع مع مراعاة التوازن بين العمل والحياة الخاصة بالطالب ، مما يتيح لهم الوصول بسهولة من وإلى فصولهم الدراسية والمواقع الأخرى المطلوبة للتدريب مثل المطار والمحاكي خارج الموقع ، ولكن في نفس الوقت الوصول بسهولة إلى الأفضل أثينا لديها لتعرض."
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:24
+msgid "Shopping Facilities for whatever needs that may Arise"
+msgstr "مرافق التسوق لأي احتياجات قد تنشأ"
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:11
+msgid "We currently have two operating bases in Athens and Megara."
+msgstr "لدينا حاليًا قاعدتان للعمليات في أثينا وميجارا."
+
+#: lib/gat_web/live/pages/facilities/facilities.html.heex:7
+msgid "What makes us different"
+msgstr "ما الذي يجعلنا مختلفين"
+
+#: lib/gat_web/live/pages/home/home.html.heex:181
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:7
+msgid "Gulf Air Academy"
+msgstr "أكاديمية طيران الخليج"
+
+#: lib/gat_web/live/pages/home/home.html.heex:114
+msgid "At Gulf Air Academy we aim on providing the highest training standards in the best environment there can be, assuring that our students will remain focused on their goal: “Achieve excellence in becoming pilots”"
+msgstr "نهدف في أكاديمية طيران الخليج إلى توفير أعلى معايير التدريب في أفضل بيئة ممكنة ، مع التأكيد على أن طلابنا سيظلون يركزون على هدفهم: “تحقيق التميز في أن يصبحوا طيارين”"
+
+#: lib/gat_web/live/pages/home/home.html.heex:155
+msgid "At Gulf Air Academy, our students satisfaction is our ultimate goal. See what Gulf Air Academy students have to say about a variety of services that we provided."
+msgstr "في أكاديمية طيران الخليج ، رضا طلابنا هو هدفنا النهائي. تعرف على ما يقوله طلاب أكاديمية طيران الخليج عن مجموعة متنوعة من الخدمات التي قدمناها."
+
+#: lib/gat_web/live/course_live/show.html.heex:58
+msgid "Course Structure"
+msgstr "هيكل الدورة"
+
+#: lib/gat_web/live/course_live/show.html.heex:42
+msgid "Duration"
+msgstr "مدة الدورة"
+
+#: lib/gat_web/live/pages/home/home.html.heex:74
+msgid "Established based on expert studies from around the world, Gulf Air Academy is taking the aviation training industry to a new level by using state-of-the-art teaching technologies & methods, assuring the best quality of training for our Future Pilots."
+msgstr "تأسست أكاديمية طيران الخليج على أساس دراسات الخبراء من جميع أنحاء العالم ، وهي ترتقي بصناعة التدريب على الطيران إلى مستوى جديد باستخدام تقنيات وأساليب التدريس الحديثة ، مما يضمن أفضل جودة للتدريب لطيارينا المستقبليين."
+
+#: lib/gat_web/live/pages/home/home.html.heex:34
+msgid "Gulf Air Academy Aviation Training Organization"
+msgstr "أكاديمية طيران الخليج منظمة تدريب الطيران"
+
+#: lib/gat_web/live/pages/home/home.html.heex:37
+#: lib/gat_web/live/pages/home/home.html.heex:209
+msgid "Gulf Air Academy is the only academy with both its headquarters & operations located in Athens, providing quality experience, premises and ease of life for our students."
+msgstr "أكاديمية طيران الخليج هي الأكاديمية الوحيدة التي يقع مقرها الرئيسي وعملياتها في أثينا ، مما يوفر تجربة عالية الجودة ومباني ويسهل الحياة لطلابنا."
+
+#: lib/gat_web/live/pages/home/home.html.heex:135
+msgid "Gulf Air Academy uses the best material in the industry, cooperating with CATS Aviation, one of the best providers in the UK & the world for the ground and distance learning material."
+msgstr "تستخدم أكاديمية طيران الخليج أفضل المواد في الصناعة ، وتتعاون مع CATS Aviation ، وهي واحدة من أفضل المزودين في المملكة المتحدة والعالم لمواد التعلم الأرضي وعن بعد."
+
+#: lib/gat_web/live/pages/home/home.html.heex:91
+msgid "Multi-national crew"
+msgstr "طاقم متعدد الجنسيات"
+
+#: lib/gat_web/live/pages/home/home.html.heex:8
+msgid "Obtain the EASA ATPL today"
+msgstr "احصل على EASA ATPL اليوم"
+
+#: lib/gat_web/live/pages/home/home.html.heex:111
+msgid "Our Goal"
+msgstr "هدفنا"
+
+#: lib/gat_web/live/course_live/show.html.heex:47
+msgid "Price"
+msgstr "تكلفة الدورة"
+
+#: lib/gat_web/live/pages/home/home.html.heex:7
+msgid "Start your Pilot Career"
+msgstr "ابدأ حياتك المهنية كطيار"
+
+#: lib/gat_web/live/pages/home/home.html.heex:11
+msgid "Start your career with the best license in the world"
+msgstr "ابدأ حياتك المهنية مع أفضل رخصة في العالم"
+
+#: lib/gat_web/live/pages/home/home.html.heex:132
+msgid "Studying materials"
+msgstr "مواد الدراسة"
+
+#: lib/gat_web/live/pages/home/home.html.heex:152
+msgid "Testimonials"
+msgstr "التوصيات"
+
+#: lib/gat_web/live/pages/home/home.html.heex:55
+msgid "The weather is one of the main factors influencing aviation training, and it rarely creates issues in Greece! Thanks to fantastic weather conditions, we schedule flights 340 days a year, which adds to the safety of our student’s training."
+msgstr "يعتبر الطقس من العوامل الرئيسية التي تؤثر على التدريب على الطيران ، ونادراً ما يخلق مشاكل في اليونان! بفضل الظروف الجوية الرائعة ، نقوم بجدولة الرحلات الجوية 340 يومًا في السنة ، مما يزيد من أمان تدريب طلابنا. هذا يساعد على ضمان أنهم على الطريق الصحيح وليسوا مجبرين على تأخير الرحلات الجوية بسبب سوء الأحوال الجوية."
+
+#: lib/gat_web/live/pages/home/home.html.heex:53
+msgid "Why Greece?"
+msgstr "لماذا اليونان؟"
+
+#: lib/gat_web/live/pages/home/home.html.heex:71
+msgid "Why Gulf Air Academy?"
+msgstr "لماذا اكاديمية طيران الخليج؟"
+
+#: lib/gat_web/live/pages/home/home.html.heex:94
+msgid "With a crew originating from 7+ different countries we present a friendly adaptive, multi-national atmosphere, that can help anyone fit in. Our professional multi-lingual staff (English /Arabic/Greek...) is always there to help our students."
+msgstr "مع طاقم من أكثر من 7 دول مختلفة ، نقدم جوًا وديًا ومتعدد الجنسيات يمكن أن يساعد أي شخص على التكيف. فريقنا المحترف متعدد اللغات (الإنجليزية / العربية / اليونانية …) موجود دائمًا لمساعدة طلابنا ."
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:35
+msgid "Can I work & do my training at the same time?"
+msgstr "هل يمكننى العمل واداء تدريبى فى نفس الوقت؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:42
+msgid "Do I have to pay the whole course fee upfront?"
+msgstr "هل يجب ان ادفع مبلغ الدراسة مقدماً؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:57
+msgid "Do I need to obtain the EASA Class I Medical before joining your academy?"
+msgstr "هل احتاج الى الحصول على (اياسا) الفئة الطبية 1 قبل الانضمام الى الاكاديمية؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.html.heex:5
+msgid "Frequently asked questions"
+msgstr "أسئلة وأجوبة"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:49
+msgid "Is Accommodation provided for students?"
+msgstr "هل يتم توفير السكن للطلاب؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:7
+msgid "What is the study material used in Gulf Air Academy?"
+msgstr "ما هو المنهج المستخدم فى الدراسة؟"
+
+#: lib/gat_web/live/components/header/header.ex:13 lib/gat_web/live/pages.ex:47
+#: lib/gat_web/live/pages/home/home.html.heex:232
+msgid "Fleet"
+msgstr "أسطول"
+
+#: lib/gat_web/live/pages/why_us/why_us.html.heex:16
+msgid "Our Goal is to train our students using advanced training methods & materials to the highest standards available in the aviation training industry."
+msgstr "هدفنا هو تدريب طلابنا باستخدام أساليب ومواد تدريب متقدمة وفقًا لأعلى المعايير المتاحة في صناعة التدريب على الطيران."
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:14
+msgid "At what age can I start my training to be a pilot?"
+msgstr "ما هو اقل عمر ممكن للبدء فى دراسة الطيران؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:21
+msgid "Do I need to have a degree to Join Gulf Air Academy?"
+msgstr "هل احتاج الى شهادة للانضمام الى اكاديمية الخليج للطيران؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:9
+msgid "Gulf Air Academy uses the best material in the industry, cooperating with CATS Aviation, one of the best providers in the UK & the world for the ground and distance learning material.\n"
+msgstr ""
+"تستخدم أكاديمية طيران الخليج أفضل المواد في الصناعة ، وتتعاون مع CATS Aviation ، وهي واحدة من أفضل المزودين في المملكة المتحدة والعالم لمواد التعلم الأرضي وعن بعد.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:28
+msgid "How will I find a Job after graduation?"
+msgstr "كيف سأجد وظيفة بعد التخرج؟"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:44
+msgid "In Gulf Air Academy, we try to be as flexible & supportive as we can regarding our payments. The fees can be done in instalments throughout the duration of your training, depending on the course and its duration.\n"
+msgstr ""
+"فى اكاديمية الخليج للطيران، نحاول ان نكون مرنين وداعمين قدر الامكان فيما يتعلق بدفعنا. يمكن سداد المبلغ على اقساط طوال مدة التدريب، اعتمادًا على الدورة ومدتها.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:23
+msgid "No, in order to begin your pilot training, you don’t need to have any other degree.\n"
+msgstr ""
+"لا، لكى تبدا تدريب الطيران، لا تحتاج الى اى درجة اخرى.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:59
+msgid ""
+"Short answer to this question is No. The expense of the initial Class I Medical, is included in the price of the ATPL Programmes, and it will be done once you Join our Academy.\n"
+"For the applicants requiring a Student Visa, they will need to acquire a simple medical for the embassy, which can be done in any hospital in their region.\n"
+msgstr ""
+"الاجابة المختصرة على هذا السؤال هى لا، يتم تضمين تكلفة الدرجة الاولى الطبية فى سعر برامج رخصة طيار خاص، وسيتم ذلك بمجرد انضمامك الى اكاديميتنا.\n"
+"‬\n"
+"‫بالنسبة للمتقدمين الذين يحتاجون الى تاشيرة طالب، سيحتاجون الى الحصول على علاج طبى بسيط للسفارة، والذى يمكن اجراؤه فى اى مستشفى فى منطقتهم.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:30
+msgid "We provide our students with courses that offer a direct job placement at the end of it, guaranteeing a job opportunity to start their career. Gulf Air Academy has a dedicated course (ATPL + Flight Instructor + Job Opportunity) for a direct job placement with us, after the training finishes.\n"
+msgstr ""
+"نحن نوفر لطلابنا دورات تقدم توظيفاً مباشرًا فى نهايتها، مما يضمن فرصة عمل لبدء حياتهم المهنية. اكاديمية الخليج للطيران لديها دورة(رخصة طيران النقل الجوى+مدرب طيران+ فرصة عمل) مخصصة للتوظيف المباشر معنا، بعد انتهاء التدريب.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:51
+msgid ""
+"Yes, we do provide modern & fully furnished accommodation with all needs included in some of courses by default, and optional in others with a very favourable rate.\n"
+"Also, along with the accommodation we provide Transportation to/from the academy and the airport throughout the duration of your training.\n"
+msgstr ""
+"نعم، نحن نوفر اقامة حديثة و مفروشة بالكامل مع جميع الاحتياجات المضمونة فى بعض الدورات بشكل افتراضى، واختيارية فى البعض الاخر بسعر مناسب للغاية.\n"
+"‬\n"
+"‫ايضا جنباً الى جانب مع الاقامة، نوفر وسائل النقل من و الى الاكاديمية و المطار طوال مدة التدريب.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:37
+msgid "Yes, you can. We understand the different circumstances & needs of each one, therefore we can tailor our courses to fit your needs within the requirements of EASA to help you complete the training in the best way for you.\n"
+msgstr ""
+"نعم تستطيع، نحن نتفهم الظروف والاحتياجات المختلفة لكل واحد، وبالتالى يمكننا تصميم دوراتنا لتناسب احتياجاتك ضمن متطلبات (اياسا) لمساعدتك على اكمال تدريبك بافضل طريقة لك.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/faqs/faqs.ex:16
+msgid "You can start your Private Pilot Licence training at the age of 16 & Commercial Pilot Licence (ATPL) at the age of 17.\n"
+msgstr ""
+"يمكن للطالب البدء في رخصة الطيار الخاص في عمر 16 عاماً ورخصة الطيران التجارية في عمر 17 عاماً.\n"
+"‬\n"
+
+#: lib/gat_web/live/pages/home/home.html.heex:184
+msgid "Gulf Air Academy is the first Arabic-European EASA Approved Training Organization, with a combined experience of over 40 years in the industry."
+msgstr "أكاديمية طيران الخليج هي أول منظمة تدريب عربية أوروبية معتمدة من EASA ، مع خبرة مشتركة تزيد عن 40 عامًا في الصناعة ومع أكثر من 80 طالبًا نشطًا من 15 جنسية مختلفة. لدينا حاليًا قاعدتان للعمليات في أثينا وميجارا."
+
+#: lib/gat_web/live/pages/home/home.html.heex:259
+msgid "Q&A"
+msgstr "اسئلة واجوبة"
+
+#: lib/gat_web/live/pages/home/home.html.heex:262
+msgid "We have listed some questions and answers, commonly known as Frequently Asked Questions (FAQ). These are some basic questions that most potential students commonly ask when contacting Gulf Air Academy."
+msgstr "لقد قمنا بإدراج بعض الأسئلة والأجوبة ، والمعروفة باسم الأسئلة الشائعة (FAQ). هذه بعض الأسئلة الأساسية التي يطرحها معظم الطلاب المحتملين عادة عند الاتصال بأكاديمية طيران الخليج."
+
+#: lib/gat_web/live/pages/home/home.html.heex:236
+msgid "We have a wonderful fleet of small planes, you will enjoy the experience of flying with them."
+msgstr "لدينا أسطول رائع من الطائرات الصغيرة، سوف تستمتع بتجربة الطيران بها."
+
+#: lib/gat_web/templates/layout/root.html.heex:11
+msgid " | Gulf Air Training"
+msgstr " | طيران الخليج للتدريب"
+
+#: lib/gat_web/live/components/header/header.ex:14 lib/gat_web/live/pages.ex:50
+msgid "FAQs"
+msgstr "اسئلة واجوبة"
+
+#: lib/gat_web/templates/user_session/new.html.heex:64
+msgid "Forgot your password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+#: lib/gat_web/templates/user_session/new.html.heex:59
+msgid "Keep me logged in for 60 days"
+msgstr "احتفظ بتسجيل الدخول لمدة 60 يومًا"
+
+#: lib/gat_web/templates/user_session/new.html.heex:48
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: lib/gat_web/templates/user_session/new.html.heex:88
+msgid "Sign in"
+msgstr "تسجيل الدخول"
+
+#: lib/gat_web/templates/user_session/new.html.heex:16
+msgid "Sign in to your account"
+msgstr "سجل الدخول لحسابك"
+
+#: lib/gat_web/live/pages/contact/contact.ex:67
+msgid "ATPL Integrated"
+msgstr ""
+
+#: lib/gat_web/live/pages/contact/contact.ex:68
+msgid "ATPL Modular"
+msgstr ""
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:120
+msgid "Max. 500 characters"
+msgstr "حد أقصى ٥٠٠ حرف"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:85
+msgid "Mobile"
+msgstr "موبايل"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:89
+msgid "Optional"
+msgstr "اختياري"
+
+#: lib/gat_web/live/pages/contact/contact.ex:69
+msgid "Other Courses"
+msgstr "دورات أخرى"
+
+#: lib/gat_web/live/pages/contact/contact.html.heex:103
+msgid "Subject"
+msgstr "الموضوع"

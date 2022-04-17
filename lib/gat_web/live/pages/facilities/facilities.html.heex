@@ -1,0 +1,41 @@
+<div class="py-16 overflow-hidden bg-slate-50">
+  <%= with_locale(@locale, fn -> %>
+  <div class="px-4 mx-auto space-y-8 max-w-7xl sm:px-6 lg:px-8">
+    <div class="mx-auto text-base max-w-prose lg:max-w-none">
+      <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase"><%= gettext("Facilities") %></h2>
+      <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-slate-900 sm:text-4xl">
+        <%= gettext("What makes us different") %>
+      </p>
+    </div>
+    <div class="relative z-10 mx-auto text-base max-w-prose lg:max-w-5xl lg:mx-0 lg:pe-72">
+      <p class="text-lg text-slate-500"><%= gettext("We currently have two operating bases in Athens and Megara.") %></p>
+    </div>
+    <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+      <div class="relative z-10">
+        <div class="mx-auto prose text-slate-500 prose-indigo lg:max-w-none">
+          <p><%= gettext("Every organization needs a Headquarters, and ours is proudly situated in the heart of Athens. The location was chosen keeping our cadet’s work-life balance in mind, allowing them to easily get to and from their classes, and other locations required for training such as the Airport and off-site Simulator, but at the same time easily access the best Athens has to offer.") %></p>
+          <ul role="list">
+            <li><%= gettext("2 Km from the HCAA Examination Center") %></li>
+            <li><%= gettext("4 Km from the Embassy District") %></li>
+            <li><%= gettext("4 Km from the Resident Permit and Tax Offices") %></li>
+            <li><%= gettext("4 Km from the EASA Medical Certificate Center") %></li>
+            <li><%= gettext("10 Km from Athens International Airport") %></li>
+            <li><%= gettext("5 Star and 4 Star Hotels in the District") %></li>
+            <li><%= gettext("Shopping Facilities for whatever needs that may Arise") %></li>
+          </ul>
+        </div>
+        <div class="flex mx-auto mt-10 text-base max-w-prose lg:max-w-none">
+          <div class="rounded-md shadow">
+            <%= live_patch(gettext("Contact us"), to: Routes.page_path(@socket, :contact), class: "flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700") %>
+          </div>
+        </div>
+      </div>
+      <div class="relative mx-auto mt-12 text-base max-w-prose lg:mt-0 lg:max-w-none">
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
+          <img src={Routes.static_path(@socket, "/images/facilities.jpg")} alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+<% end) %>
+</div>

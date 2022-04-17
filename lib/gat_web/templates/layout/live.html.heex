@@ -1,0 +1,19 @@
+<main class="flex flex-col flex-1 h-full min-h-screen bg-slate-100"
+      dir={(@locale == "ar" && "RTL") || "LTR"}>
+  <.live_component
+      module={Header}
+      current_user={@current_user}
+      locale={@locale}
+      locale_route={@locale_route}
+      page={@page}
+      id="header">
+  </.live_component>
+  <div class="flex-1 h-full">
+    <%= @inner_content %>
+  </div>
+  <.live_component
+        module={Footer}
+        locale={@locale}
+        id="footer">
+  </.live_component>
+</main>

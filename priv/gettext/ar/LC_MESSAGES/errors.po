@@ -1,0 +1,124 @@
+# # "msgid"s in this file come from POT (.pot) files.
+# #
+# # Do not add, change, or remove "msgid"s manually here as
+# # they're tied to the ones in the corresponding POT file
+# # (with the same domain).
+# #
+# # Use "mix gettext.extract --merge" or "mix gettext.merge"
+# # to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gulf Air Training\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Aladdin Koraiem <alaadahmed@gmail.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "can't be blank"
+msgstr "يجب ملئ هذا الحقل"
+
+msgid "has already been taken"
+msgstr "تم استخدامه من قبل"
+
+msgid "is invalid"
+msgstr "غير صحيح"
+
+msgid "must be accepted"
+msgstr "يجب قبوله"
+
+msgid "has invalid format"
+msgstr "يحتوي على تنسيق غير صحيح"
+
+msgid "has an invalid entry"
+msgstr "يحتوي على إدخال غير صحيح"
+
+msgid "is reserved"
+msgstr "محجوز"
+
+msgid "does not match confirmation"
+msgstr "لا يطابق التأكيد"
+
+msgid "is still associated with this entry"
+msgstr "مازال مرتبط بهذا الإدخال"
+
+msgid "are still associated with this entry"
+msgstr "مازالوا مرتبطين بهذا الإدخال"
+
+msgid "should be %{count} character(s)"
+msgid_plural "should be %{count} character(s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "should have %{count} item(s)"
+msgid_plural "should have %{count} item(s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "should be at least %{count} character(s)"
+msgid_plural "should be at least %{count} character(s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "should have at least %{count} item(s)"
+msgid_plural "should have at least %{count} item(s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "should be at most %{count} character(s)"
+msgid_plural "should be at most %{count} character(s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "should have at most %{count} item(s)"
+msgid_plural "should have at most %{count} item(s)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+msgid "must be less than %{number}"
+msgstr ""
+
+msgid "must be greater than %{number}"
+msgstr ""
+
+msgid "must be less than or equal to %{number}"
+msgstr ""
+
+msgid "must be greater than or equal to %{number}"
+msgstr "يجب أن يكون أكبر من أو يساوي %{number}"
+
+msgid "must be equal to %{number}"
+msgstr "يجب أن يساوي %{number}"
+
+#: lib/gat/training/course.ex:39
+msgid "Course's slug must be unique, change course's slug"
+msgstr "مُعرِّف الدورة استخدم من قبل، لا يجب تكرار المُعرِّف"

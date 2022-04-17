@@ -1,0 +1,25 @@
+<header class="bg-indigo-600">
+  <%= with_locale(@locale, fn -> %>
+  <nav class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" aria-label="Top">
+    <div class="flex items-center justify-between w-full py-6 border-b border-indigo-500 lg:border-none">
+      <div class="flex items-center">
+        <%= live_redirect(to: Routes.page_path(@socket, :home), class: "") do %>
+          <span class="sr-only">Workflow</span>
+          <img class="w-auto h-16" src={Routes.static_path(@socket, "/images/logo.png")} alt="">
+        <% end %>
+        <div class="hidden ms-10 space-s-8 lg:block">
+          <%= for {route, label} <- nav_items() do %>
+             <%= live_patch(label, to: route, class: "text-base font-medium text-white hover:text-indigo-50") %>
+          <% end %>
+        </div>
+      </div>
+      <.locale_btn route={@locale_route} locale={(@locale == "ar" && "en") || "ar"} />
+    </div>
+    <div class="flex flex-wrap justify-center py-4 space-s-6 lg:hidden">
+      <%= for {route, label} <- nav_items() do %>
+          <%= live_patch(label, to: route, class: "text-base font-medium text-white hover:text-indigo-50") %>
+      <% end %>
+    </div>
+  </nav>
+<% end) %>
+</header>

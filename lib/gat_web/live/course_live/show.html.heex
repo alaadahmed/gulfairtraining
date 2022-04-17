@@ -1,0 +1,89 @@
+<%= if @live_action in [:edit] do %>
+  <.modal return_to={Routes.course_show_path(@socket, :show, @course)}>
+    <.live_component
+      module={GATWeb.CourseLive.FormComponent}
+      id={@course.id}
+      title={@page_title}
+      action={@live_action}
+      course={@course}
+      return_to={Routes.course_show_path(@socket, :show, @course)}
+    />
+  </.modal>
+<% end %>
+
+<div class="relative py-10 bg-white sm:py-16">
+  <%= with_locale(@locale, fn -> %>
+  <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
+    <div class="relative sm:py-16 lg:py-0">
+      <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
+        <!-- Testimonial card-->
+        <div class="relative pt-64 pb-24 overflow-hidden shadow-xl rounded-2xl">
+          <img class="absolute inset-0 object-cover w-full h-full" src={@course.featured_image} alt="">
+          <div class="absolute inset-0 bg-amber-200/50 mix-blend-multiply"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+      <!-- Content area -->
+      <div class="pt-12 sm:pt-16 lg:pt-20">
+        <h2 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+          <%= @course.title %>
+        </h2>
+        <div class="mt-6 space-y-6 text-slate-500">
+          <p class="text-lg"><%= @course.description %></p>
+        </div>
+      </div>
+
+      <!-- Stats section -->
+      <div class="mt-10">
+        <dl class="grid grid-cols-1 gap-x-4 gap-y-8">
+          <div class="pt-6 border-t-2 border-slate-100">
+            <dt class="text-base font-medium text-slate-500"><%= gettext("Duration") %></dt>
+            <dd class="text-xl font-bold tracking-tight text-slate-900"><%= @course.duration %></dd>
+          </div>
+
+          <div class="pt-6 border-t-2 border-slate-100">
+            <dt class="text-base font-medium text-slate-500"><%= gettext("Price") %></dt>
+            <dd class="text-xl font-bold tracking-tight text-slate-900"><%= @course.price %> €</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="sm:flex sm:items-center">
+      <div class="sm:flex-auto">
+        <h1 class="text-2xl font-bold sm:text-3xl text-slate-900"><%= gettext("Course Structure") %></h1>
+      </div>
+    </div>
+    <div class="flex flex-col mt-8">
+      <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+          <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+            <table class="min-w-full divide-y divide-slate-300">
+              <thead class="bg-slate-50">
+                <tr class="divide-s divide-slate-200">
+                  <th scope="col" class="py-3.5 pl-4 pr-4 ltr:text-left rtl:text-right text-sm font-semibold text-slate-900 sm:pl-6">Name</th>
+                  <th scope="col" class="px-4 py-3.5 ltr:text-left rtl:text-right text-sm font-semibold text-slate-900">Title</th>
+                  <th scope="col" class="px-4 py-3.5 ltr:text-left rtl:text-right text-sm font-semibold text-slate-900">Email</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white divide-y divide-slate-200">
+                <tr class="divide-s divide-slate-200">
+                  <td class="py-4 pl-4 text-sm font-medium ps-4 text-slate-900 whitespace-nowrap sm:pl-6">Lindsay Walton</td>
+                  <td class="p-4 text-sm text-slate-500 whitespace-nowrap">Front-end Developer</td>
+                  <td class="p-4 text-sm text-slate-500 whitespace-nowrap">lindsay.walton@example.com</td>
+                </tr>
+
+                <!-- More people... -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% end) %>
+</div>

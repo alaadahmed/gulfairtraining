@@ -1,0 +1,147 @@
+<div>
+  <div class="relative bg-white border-t border-slate-200">
+    <div class="absolute inset-0">
+      <div class="absolute inset-y-0 w-1/2 ltr:left-0 rtl:right-0 bg-slate-100"></div>
+    </div>
+    <%= with_locale(@locale, fn -> %>
+    <div class="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
+      <div class="px-4 py-16 bg-slate-100 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+        <div class="max-w-lg mx-auto">
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
+            <%= gettext("Get in touch") %>
+          </h2>
+          <p class="mt-3 text-lg leading-6 text-slate-500"><%= gettext("We are here to help you, please feel free to send us your inquiry and we will get to you very soon.") %></p>
+          <dl class="mt-8 text-base text-slate-500">
+            <div>
+              <dt class="sr-only">Postal address</dt>
+              <dd>
+                <p><%= gettext("20 Mohamed El-Maqreef St.") %></p>
+                <p><%= gettext("Nasr City, 17210") %></p>
+                <p><%= gettext("Cairo, EGYPT") %></p>
+              </dd>
+            </div>
+            <div class="mt-6">
+              <dt class="sr-only"><%= gettext("Phone number") %></dt>
+              <dd class="flex">
+                <!-- Heroicon name: outline/phone -->
+                <svg class="flex-shrink-0 w-6 h-6 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span dir="ltr" class="ml-3 rtl:mr-3">+20 1280 554 544</span>
+              </dd>
+            </div>
+            <div class="mt-3">
+              <dt class="sr-only"><%= gettext("Email") %></dt>
+              <dd class="flex">
+                <!-- Heroicon name: outline/mail -->
+                <svg class="flex-shrink-0 w-6 h-6 text-slate-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span class="ms-3">info@gulfairtraining.com</span>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+      <div class="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+        <div class="max-w-lg mx-auto lg:max-w-none">
+          <.form
+                let={f}
+                for={@changeset}
+                action="#"
+                id="contactus-form"
+                class="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                phx-change="validate"
+                phx-submit="save"
+                phx-target={@myself}
+              >
+            <div class="sm:col-span-2">
+              <%= label(f, :fullname, class: "flex items-center space-s-0.5 text-sm font-medium text-slate-900") do %>
+                <span><%= gettext("Full name") %></span>
+                <.asterisk />
+              <% end %>
+              <div class="mt-1">
+                <%= text_input(f, :fullname,
+                      class:
+                        "block w-full px-4 py-3 text-slate-900 border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500",
+                      autocomplete: "off",
+                      phx_debounce: "blur"
+                    ) %>
+                <%= error_tag(f, :fullname) %>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <%= label(f, :email, class: "flex items-center space-s-0.5 text-sm font-medium text-slate-900") do %>
+                <span><%= gettext("Email") %></span>
+                <.asterisk />
+              <% end %>
+              <div class="mt-1">
+                <%= email_input(f, :email,
+                      class:
+                        "block w-full px-4 py-3 text-slate-900 border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500",
+                      autocomplete: "off",
+                      phx_debounce: "blur"
+                    ) %>
+                <%= error_tag(f, :email) %>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <div class="flex justify-between">
+                <%= label(f, :mobile, class: "flex items-center space-s-0.5 text-sm font-medium text-slate-900") do %>
+                  <span><%= gettext("Mobile") %></span>
+                  <.asterisk />
+                <% end %>
+              </div>
+              <div class="mt-1">
+                <%= telephone_input(f, :mobile,
+                      class:
+                        "block w-full px-4 py-3 text-slate-900 border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500",
+                      autocomplete: "off",
+                      phx_debounce: "blur"
+                    ) %>
+                <%= error_tag(f, :mobile) %>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <%= label(f, gettext("Subject"),
+                    class: "block text-sm font-medium text-slate-900"
+                  ) %>
+              <div class="mt-1">
+                <%= select(f, :subject, subjects(),
+                      class:
+                        "block w-full px-4 py-3 text-slate-900 border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 #{if @locale == "ar", do: "bg-rtl"}"
+                    ) %>
+                <%= error_tag(f, :subject) %>
+              </div>
+            </div>
+            <div class="sm:col-span-2">
+              <div class="flex justify-between">
+                <%= label(f, gettext("Message"),
+                      class: "block text-sm font-medium text-slate-900"
+                    ) %>
+                <span id="message-max" class="text-sm text-slate-500">
+                  <%= gettext("Max. 500 characters") %>
+                </span>
+              </div>
+              <div class="mt-1">
+                <%= textarea(f, :message,
+                      class:
+                        "block w-full px-4 py-3 text-slate-900 border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500",
+                      rows: "5"
+                    ) %>
+                <%= error_tag(f, :message) %>
+              </div>
+            </div>
+            <div class="sm:col-span-2 sm:flex sm:justify-end">
+              <%= submit(gettext("Submit"),
+                    class:
+                      "inline-flex items-center justify-center w-full px-6 py-2 mt-2 text-base font-medium tracking-wide text-white uppercase border border-transparent rounded-md shadow-sm bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 sm:w-auto"
+                  ) %>
+            </div>
+          </.form>
+        </div>
+      </div>
+    </div>
+  <% end) %>
+</div>
+</div>

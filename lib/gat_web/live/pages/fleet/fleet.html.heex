@@ -1,0 +1,64 @@
+<div class="bg-white" dir="LTR">
+  <%= for {fleet, index} <- Enum.with_index(fleets()) do %>
+    <div class={"py-16 mx-auto max-w-7xl sm:px-2 sm:py-20 lg:px-4 #{if rem(index, 2) == 1, do: "bg-slate-100", else: "bg-white"}"}>
+      <div class="max-w-2xl px-4 mx-auto lg:max-w-none">
+        <div class="grid items-center grid-cols-1 gap-y-10 gap-x-16 lg:grid-cols-2">
+          <div>
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900"><%= fleet.name %></h2>
+            <p class="mt-4 text-gray-500"><%= fleet.specs %></p>
+          </div>
+          <div class="overflow-hidden bg-gray-100 rounded-lg aspect-w-3 aspect-h-2">
+            <img src={Routes.static_path(@socket, "/images/#{fleet.img}")} alt={fleet.name} class="object-cover object-center">
+          </div>
+        </div>
+        <div class="grid grid-cols-1 mt-16 justify-items-center gap-y-10 gap-x-8 lg:grid-cols-3">
+          <div class="sm:flex lg:block">
+            <div class="flex justify-center sm:flex-shrink-0">
+              <svg class="w-16 fill-current text-slate-700" viewBox="0 0 1143 646.75" xmlns="http://www.w3.org/2000/svg">
+                <g transform="matrix(1.25 0 0 -1.25 0 646.75)">
+                  <g transform="scale(.24)">
+                    <path d="m3564.5 1493c104.41-41.75 245.29-41.75 245.29-156.69 0-271.39-1122.2-433.21-1164-433.21l-370.57-809.18c-26.17-62.586-62.69-78.32-104.52-83.449l-120.12-10.457v563.68l-234.83 208.88c-26.14 0-177.6-25.989-490.67-25.989-365.41 0-464.62 15.559-490.72 15.559l-41.676-177.46c-5.312-31.418-94.054-47-109.65-26.113l-187.98 250.6c-36.469 0-130.46 10.305-130.46 41.746 0 41.629 15.648 57.336 36.523 67.743l-396.72 370.72c-26.027 26.02 67.93 78.19 151.36 36.59l386.31-182.68-26.141 302.75 88.777 15.49c31.321 5.28 99.285-41.78 120.07-62.49l271.54-292.37 469.75 88.8-219.3 224.28-1028.2 647.34 88.617 67.91s20.949 20.86 93.992 20.86l2041-793.54 636.87 120.07c26.07 5.3101 135.75 67.89 266.21 67.89 141.05 0 141.05-26.01 219.33-57.28"/>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
+              <h3 class="text-sm font-medium text-gray-900">Max. range</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                <span class="text-xl font-bold text-gray-700"><%= fleet.range %></span> km
+              </p>
+            </div>
+          </div>
+          <div class="sm:flex lg:block">
+            <div class="flex justify-center sm:flex-shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 fill-current text-slate-700" viewBox="0 0 16 16">
+                <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z"/>
+              </svg>
+            </div>
+            <div class="mt-4 sm:mt-0 sm:ml-10 lg:mt-6 lg:ml-0">
+              <h3 class="text-sm font-medium text-gray-900">Max. speed</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                <span class="text-xl font-bold text-gray-700"><%= fleet.speed %></span> km/h
+              </p>
+            </div>
+          </div>
+          <div class="sm:flex lg:block">
+            <div class="flex justify-center sm:flex-shrink-0">
+              <svg class="w-16 fill-current text-slate-700" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.35 5.64c-.9-.64-1.12-1.88-.49-2.79.63-.9 1.88-1.12 2.79-.49.9.64 1.12 1.88.49 2.79-.64.9-1.88 1.12-2.79.49zM16 19H8.93c-1.48 0-2.74-1.08-2.96-2.54L4 7H2l1.99 9.76C4.37 19.2 6.47 21 8.94 21H16v-2zm.23-4h-4.88l-1.03-4.1c1.58.89 3.28 1.54 5.15 1.22V9.99c-1.63.31-3.44-.27-4.69-1.25L9.14 7.47c-.23-.18-.49-.3-.76-.38-.32-.09-.66-.12-.99-.06h-.02c-1.23.22-2.05 1.39-1.84 2.61l1.35 5.92C7.16 16.98 8.39 18 9.83 18h6.85l3.82 3 1.5-1.5-5.77-4.5z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+              </svg>
+            </div>
+            <div class="mt-4 sm:mt-0 sm:ml-6 lg:mt-2 lg:ml-0">
+              <h3 class="text-sm font-medium text-gray-900">Passengers</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                <span class="text-xl font-bold text-gray-700"><%= fleet.passengers %></span> persons
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
