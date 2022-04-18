@@ -23,13 +23,6 @@ config :gat, GATWeb.Gettext,
   default_locale: "en",
   locales: ~w(en ar)
 
-config :ecto_translate,
-  translatable_id_type: :binary_id
-
-config :ecto_translate,
-  repo: GAT.Repo,
-  gettext: GATWeb.Gettext
-
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails

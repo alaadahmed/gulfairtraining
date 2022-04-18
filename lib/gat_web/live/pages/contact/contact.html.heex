@@ -109,7 +109,7 @@
               <div class="mt-1">
                 <%= select(f, :subject, subjects(),
                       class:
-                        "block w-full px-4 py-3 text-slate-900 border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 #{if @locale == "ar", do: "bg-rtl"}"
+                        "block w-full px-4 py-3 text-slate-900 font-semibold border-slate-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 #{if @locale == "ar", do: "bg-rtl"}"
                     ) %>
                 <%= error_tag(f, :subject) %>
               </div>

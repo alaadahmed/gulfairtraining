@@ -17,21 +17,20 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/footer/footer.html.heex:9
-#: lib/gat_web/live/components/header/header.ex:15
-#: lib/gat_web/live/pages.ex:38
+#: lib/gat_web/live/pages.ex:42
 msgid "Contact"
 msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/header/header.ex:9
-#: lib/gat_web/live/pages.ex:35
+#: lib/gat_web/live/pages.ex:39
 msgid "Home"
 msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/header/header.ex:10
-#: lib/gat_web/live/pages.ex:53
-#: lib/gat_web/live/pages.ex:56
+#: lib/gat_web/live/pages.ex:57
+#: lib/gat_web/live/pages.ex:60
 msgid "Courses"
 msgstr ""
 
@@ -47,13 +46,12 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/pages/contact/contact.html.heex:34
-#: lib/gat_web/live/pages/contact/contact.html.heex:72
-#: lib/gat_web/templates/user_session/new.html.heex:39
+#: lib/gat_web/live/pages/contact/contact.html.heex:75
 msgid "Email"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:58
+#: lib/gat_web/live/pages/contact/contact.html.heex:60
 msgid "Full name"
 msgstr ""
 
@@ -63,12 +61,12 @@ msgid "Get in touch"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:116
+#: lib/gat_web/live/pages/contact/contact.html.heex:119
 msgid "Message"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/course_live/index.html.heex:40
+#: lib/gat_web/live/course_live/index.html.heex:28
 msgid "More info"
 msgstr ""
 
@@ -83,7 +81,7 @@ msgid "Phone number"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:133
+#: lib/gat_web/live/pages/contact/contact.html.heex:136
 msgid "Submit"
 msgstr ""
 
@@ -93,7 +91,7 @@ msgid "We are here to help you, please feel free to send us your inquiry and we 
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/course_live/index.html.heex:19
+#: lib/gat_web/live/course_live/index.html.heex:6
 #: lib/gat_web/live/pages/home/home.html.heex:18
 msgid "Our Courses"
 msgstr ""
@@ -111,7 +109,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/header/header.ex:12
-#: lib/gat_web/live/pages.ex:41
+#: lib/gat_web/live/pages.ex:45
 #: lib/gat_web/live/pages/facilities/facilities.html.heex:5
 #: lib/gat_web/live/pages/home/home.html.heex:31
 #: lib/gat_web/live/pages/home/home.html.heex:206
@@ -124,7 +122,7 @@ msgid "Gulf Air Academy is the first Arabic-European EASA Approved Training Orga
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/components/footer/footer.html.heex:26
+#: lib/gat_web/live/components/footer/footer.html.heex:29
 msgid "Gulf Air Training. All rights reserved."
 msgstr ""
 
@@ -150,7 +148,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/header/header.ex:11
-#: lib/gat_web/live/pages.ex:44
+#: lib/gat_web/live/pages.ex:48
 msgid "Why us"
 msgstr ""
 
@@ -226,12 +224,12 @@ msgid "At Gulf Air Academy, our students satisfaction is our ultimate goal. See 
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/course_live/show.html.heex:58
+#: lib/gat_web/live/course_live/show.html.heex:82
 msgid "Course Structure"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/course_live/show.html.heex:42
+#: lib/gat_web/live/course_live/show.html.heex:40
 msgid "Duration"
 msgstr ""
 
@@ -272,7 +270,7 @@ msgid "Our Goal"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/course_live/show.html.heex:47
+#: lib/gat_web/live/course_live/show.html.heex:49
 msgid "Price"
 msgstr ""
 
@@ -348,7 +346,7 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/header/header.ex:13
-#: lib/gat_web/live/pages.ex:47
+#: lib/gat_web/live/pages.ex:51
 #: lib/gat_web/live/pages/home/home.html.heex:232
 msgid "Fleet"
 msgstr ""
@@ -439,67 +437,48 @@ msgid " | Gulf Air Training"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/components/header/header.ex:14
-#: lib/gat_web/live/pages.ex:50
+#: lib/gat_web/live/components/footer/footer.html.heex:12
+#: lib/gat_web/live/pages.ex:54
 msgid "FAQs"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/templates/user_session/new.html.heex:64
-msgid "Forgot your password?"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/gat_web/templates/user_session/new.html.heex:59
-msgid "Keep me logged in for 60 days"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/gat_web/templates/user_session/new.html.heex:48
-msgid "Password"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/gat_web/templates/user_session/new.html.heex:88
-msgid "Sign in"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/gat_web/templates/user_session/new.html.heex:16
-msgid "Sign in to your account"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.ex:67
+#: lib/gat/training/data.ex:8
+#: lib/gat_web/live/pages/contact/contact.ex:69
 msgid "ATPL Integrated"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.ex:68
+#: lib/gat_web/live/pages/contact/contact.ex:70
 msgid "ATPL Modular"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:120
+#: lib/gat_web/live/pages/contact/contact.html.heex:123
 msgid "Max. 500 characters"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:85
+#: lib/gat_web/live/pages/contact/contact.html.heex:91
 msgid "Mobile"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:89
-msgid "Optional"
-msgstr ""
-
-#, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.ex:69
+#: lib/gat_web/live/pages/contact/contact.ex:71
 msgid "Other Courses"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat_web/live/pages/contact/contact.html.heex:103
+#: lib/gat_web/live/pages/contact/contact.html.heex:106
 msgid "Subject"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/gat_web/live/course_live/show.html.heex:60
+msgid "Requirements"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/gat/training/data.ex:10
+msgid "This course is designed to get an individual from absolutely no flight experience in aviation all the way to obtaining the ATPL, with all the necessary requirements to be selected by a Commercial Airline. Gulf Air Academy’s Integrated ATPL Course is (EASA) approved & designed to give you the exact knowledge and expertise to meet the requirements of all the major airline companies around the world. Once you finish this course, you will be ready to take a right seat in all the major airlines!"
 msgstr ""

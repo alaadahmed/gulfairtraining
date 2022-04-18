@@ -118,7 +118,3 @@ msgstr "يجب أن يكون أكبر من أو يساوي %{number}"
 
 msgid "must be equal to %{number}"
 msgstr "يجب أن يساوي %{number}"
-
-#: lib/gat/training/course.ex:39
-msgid "Course's slug must be unique, change course's slug"
-msgstr "مُعرِّف الدورة استخدم من قبل، لا يجب تكرار المُعرِّف"

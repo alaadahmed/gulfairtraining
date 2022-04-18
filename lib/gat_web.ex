@@ -47,7 +47,6 @@ defmodule GATWeb do
       use Phoenix.LiveView,
         layout: {GATWeb.LayoutView, "live.html"}
 
-      on_mount GATWeb.UserLiveAuth
       unquote(view_helpers())
     end
   end

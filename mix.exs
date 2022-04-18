@@ -20,7 +20,7 @@ defmodule GAT.MixProject do
   def application do
     [
       mod: {GAT.Application, []},
-      extra_applications: [:logger, :runtime_tools, :ecto_translate]
+      extra_applications: [:logger, :runtime_tools]
     ]
   end
 
@@ -33,20 +33,18 @@ defmodule GAT.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:argon2_elixir, "~> 3.0"},
-      {:ecto_sql, "~> 3.6"},
-      {:ecto_translate, github: "alaadahmed/ecto_translate"},
+      {:ecto, "~> 3.7"},
       {:esbuild, "~> 0.3", runtime: Mix.env() == :dev},
       {:floki, ">= 0.30.0", only: :test},
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
+      {:number, "~> 1.0"},
       {:phoenix, "~> 1.6.6"},
       {:phoenix_ecto, "~> 4.4"},
       {:phoenix_html, "~> 3.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:phoenix_live_view, "~> 0.17.5"},
       {:plug_cowboy, "~> 2.5"},
-      {:postgrex, ">= 0.0.0"},
       {:swoosh, "~> 1.3"},
       {:tailwind, "~> 0.1", runtime: Mix.env() == :dev},
       {:telemetry_metrics, "~> 0.6"},
@@ -62,10 +60,7 @@ defmodule GAT.MixProject do
   # See the documentation for `Mix` for more info on aliases.
   defp aliases do
     [
-      setup: ["deps.get", "ecto.setup"],
-      "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
-      "ecto.reset": ["ecto.drop", "ecto.setup"],
-      test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"],
+      setup: ["deps.get"],
       "assets.deploy": [
         "tailwind default --minify",
         "esbuild default --minify",

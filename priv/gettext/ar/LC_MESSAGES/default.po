@@ -25,16 +25,16 @@ msgid "About"
 msgstr "عنا"
 
 #: lib/gat_web/live/components/footer/footer.html.heex:9
-#: lib/gat_web/live/components/header/header.ex:15 lib/gat_web/live/pages.ex:38
+#: lib/gat_web/live/pages.ex:42
 msgid "Contact"
 msgstr "تواصل معنا"
 
-#: lib/gat_web/live/components/header/header.ex:9 lib/gat_web/live/pages.ex:35
+#: lib/gat_web/live/components/header/header.ex:9 lib/gat_web/live/pages.ex:39
 msgid "Home"
 msgstr "الرئيسية"
 
-#: lib/gat_web/live/components/header/header.ex:10 lib/gat_web/live/pages.ex:53
-#: lib/gat_web/live/pages.ex:56
+#: lib/gat_web/live/components/header/header.ex:10 lib/gat_web/live/pages.ex:57
+#: lib/gat_web/live/pages.ex:60
 msgid "Courses"
 msgstr "الدورات"
 
@@ -47,12 +47,11 @@ msgid "Cairo, EGYPT"
 msgstr "القاهرة، مصر"
 
 #: lib/gat_web/live/pages/contact/contact.html.heex:34
-#: lib/gat_web/live/pages/contact/contact.html.heex:72
-#: lib/gat_web/templates/user_session/new.html.heex:39
+#: lib/gat_web/live/pages/contact/contact.html.heex:75
 msgid "Email"
 msgstr "الإيميل"
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:58
+#: lib/gat_web/live/pages/contact/contact.html.heex:60
 msgid "Full name"
 msgstr "الإسم الكامل"
 
@@ -60,11 +59,11 @@ msgstr "الإسم الكامل"
 msgid "Get in touch"
 msgstr "تواصل معنا"
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:116
+#: lib/gat_web/live/pages/contact/contact.html.heex:119
 msgid "Message"
 msgstr "الرسالة"
 
-#: lib/gat_web/live/course_live/index.html.heex:40
+#: lib/gat_web/live/course_live/index.html.heex:28
 msgid "More info"
 msgstr "مزيد من المعلومات"
 
@@ -76,7 +75,7 @@ msgstr "مدينة نصر، ١٧٢١٠"
 msgid "Phone number"
 msgstr "رقم التليفون"
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:133
+#: lib/gat_web/live/pages/contact/contact.html.heex:136
 msgid "Submit"
 msgstr "ارسل"
 
@@ -84,7 +83,7 @@ msgstr "ارسل"
 msgid "We are here to help you, please feel free to send us your inquiry and we will get to you very soon."
 msgstr "نحن هنا لمساعدتك ، لا تتردد في إرسال استفسارك إلينا وسنصل إليك قريبا جدا."
 
-#: lib/gat_web/live/course_live/index.html.heex:19
+#: lib/gat_web/live/course_live/index.html.heex:6
 #: lib/gat_web/live/pages/home/home.html.heex:18
 msgid "Our Courses"
 msgstr "دوراتنا"
@@ -98,7 +97,7 @@ msgstr "سجل الأن"
 msgid "Choosing the right Academy, is the first step towards your Career."
 msgstr "اختيار الأكاديمية المناسبة هو الخطوة الأولى نحو حياتك المهنية."
 
-#: lib/gat_web/live/components/header/header.ex:12 lib/gat_web/live/pages.ex:41
+#: lib/gat_web/live/components/header/header.ex:12 lib/gat_web/live/pages.ex:45
 #: lib/gat_web/live/pages/facilities/facilities.html.heex:5
 #: lib/gat_web/live/pages/home/home.html.heex:31
 #: lib/gat_web/live/pages/home/home.html.heex:206
@@ -109,7 +108,7 @@ msgstr "خدمات"
 msgid "Gulf Air Academy is the first Arabic-European EASA Approved Training Organization, with a combined experience of over 40 years in the industry and with 80+ active students from 15 different nationalities. We currently have two operating bases in Athens and Megara"
 msgstr "أكاديمية طيران الخليج هي أول منظمة تدريب عربية أوروبية معتمدة من EASA ، مع خبرة مشتركة تزيد عن 40 عامًا في الصناعة ومع أكثر من 80 طالبًا نشطًا من 15 جنسية مختلفة. لدينا حاليًا قاعدتان للعمليات في أثينا وميجارا"
 
-#: lib/gat_web/live/components/footer/footer.html.heex:26
+#: lib/gat_web/live/components/footer/footer.html.heex:29
 msgid "Gulf Air Training. All rights reserved."
 msgstr "جلف إير تريننج. جميع الحقوق محفوظة."
 
@@ -129,7 +128,7 @@ msgstr "الطقس"
 msgid "The weather is one of the main factors influencing aviation training, and it rarely creates issues in Greece! Thanks to fantastic weather conditions, we schedule flights 340 days a year, which adds to the safety of our student’s training. This helps assure that they are on track and are not forced to delay flights due to bad weather."
 msgstr "يعتبر الطقس من العوامل الرئيسية التي تؤثر على التدريب على الطيران ، ونادراً ما يخلق مشاكل في اليونان! بفضل الظروف الجوية الرائعة ، نقوم بجدولة الرحلات الجوية 340 يومًا في السنة ، مما يزيد من أمان تدريب طلابنا. هذا يساعد على ضمان أنهم على الطريق الصحيح وليسوا مجبرين على تأخير الرحلات الجوية بسبب سوء الأحوال الجوية."
 
-#: lib/gat_web/live/components/header/header.ex:11 lib/gat_web/live/pages.ex:44
+#: lib/gat_web/live/components/header/header.ex:11 lib/gat_web/live/pages.ex:48
 msgid "Why us"
 msgstr "لماذا نحن"
 
@@ -190,11 +189,11 @@ msgstr "نهدف في أكاديمية طيران الخليج إلى توفير
 msgid "At Gulf Air Academy, our students satisfaction is our ultimate goal. See what Gulf Air Academy students have to say about a variety of services that we provided."
 msgstr "في أكاديمية طيران الخليج ، رضا طلابنا هو هدفنا النهائي. تعرف على ما يقوله طلاب أكاديمية طيران الخليج عن مجموعة متنوعة من الخدمات التي قدمناها."
 
-#: lib/gat_web/live/course_live/show.html.heex:58
+#: lib/gat_web/live/course_live/show.html.heex:82
 msgid "Course Structure"
 msgstr "هيكل الدورة"
 
-#: lib/gat_web/live/course_live/show.html.heex:42
+#: lib/gat_web/live/course_live/show.html.heex:40
 msgid "Duration"
 msgstr "مدة الدورة"
 
@@ -227,7 +226,7 @@ msgstr "احصل على EASA ATPL اليوم"
 msgid "Our Goal"
 msgstr "هدفنا"
 
-#: lib/gat_web/live/course_live/show.html.heex:47
+#: lib/gat_web/live/course_live/show.html.heex:49
 msgid "Price"
 msgstr "تكلفة الدورة"
 
@@ -287,7 +286,7 @@ msgstr "هل يتم توفير السكن للطلاب؟"
 msgid "What is the study material used in Gulf Air Academy?"
 msgstr "ما هو المنهج المستخدم فى الدراسة؟"
 
-#: lib/gat_web/live/components/header/header.ex:13 lib/gat_web/live/pages.ex:47
+#: lib/gat_web/live/components/header/header.ex:13 lib/gat_web/live/pages.ex:51
 #: lib/gat_web/live/pages/home/home.html.heex:232
 msgid "Fleet"
 msgstr "أسطول"
@@ -384,54 +383,39 @@ msgstr "لدينا أسطول رائع من الطائرات الصغيرة، س
 msgid " | Gulf Air Training"
 msgstr " | طيران الخليج للتدريب"
 
-#: lib/gat_web/live/components/header/header.ex:14 lib/gat_web/live/pages.ex:50
+#: lib/gat_web/live/components/footer/footer.html.heex:12
+#: lib/gat_web/live/pages.ex:54
 msgid "FAQs"
 msgstr "اسئلة واجوبة"
 
-#: lib/gat_web/templates/user_session/new.html.heex:64
-msgid "Forgot your password?"
-msgstr "هل نسيت كلمة المرور؟"
-
-#: lib/gat_web/templates/user_session/new.html.heex:59
-msgid "Keep me logged in for 60 days"
-msgstr "احتفظ بتسجيل الدخول لمدة 60 يومًا"
-
-#: lib/gat_web/templates/user_session/new.html.heex:48
-msgid "Password"
-msgstr "كلمة المرور"
-
-#: lib/gat_web/templates/user_session/new.html.heex:88
-msgid "Sign in"
-msgstr "تسجيل الدخول"
-
-#: lib/gat_web/templates/user_session/new.html.heex:16
-msgid "Sign in to your account"
-msgstr "سجل الدخول لحسابك"
-
-#: lib/gat_web/live/pages/contact/contact.ex:67
+#: lib/gat/training/data.ex:8 lib/gat_web/live/pages/contact/contact.ex:69
 msgid "ATPL Integrated"
 msgstr ""
 
-#: lib/gat_web/live/pages/contact/contact.ex:68
+#: lib/gat_web/live/pages/contact/contact.ex:70
 msgid "ATPL Modular"
 msgstr ""
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:120
+#: lib/gat_web/live/pages/contact/contact.html.heex:123
 msgid "Max. 500 characters"
 msgstr "حد أقصى ٥٠٠ حرف"
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:85
+#: lib/gat_web/live/pages/contact/contact.html.heex:91
 msgid "Mobile"
 msgstr "موبايل"
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:89
-msgid "Optional"
-msgstr "اختياري"
-
-#: lib/gat_web/live/pages/contact/contact.ex:69
+#: lib/gat_web/live/pages/contact/contact.ex:71
 msgid "Other Courses"
 msgstr "دورات أخرى"
 
-#: lib/gat_web/live/pages/contact/contact.html.heex:103
+#: lib/gat_web/live/pages/contact/contact.html.heex:106
 msgid "Subject"
 msgstr "الموضوع"
+
+#: lib/gat_web/live/course_live/show.html.heex:60
+msgid "Requirements"
+msgstr ""
+
+#: lib/gat/training/data.ex:10
+msgid "This course is designed to get an individual from absolutely no flight experience in aviation all the way to obtaining the ATPL, with all the necessary requirements to be selected by a Commercial Airline. Gulf Air Academy’s Integrated ATPL Course is (EASA) approved & designed to give you the exact knowledge and expertise to meet the requirements of all the major airline companies around the world. Once you finish this course, you will be ready to take a right seat in all the major airlines!"
+msgstr "تم تصميم هذه الدورة للحصول على فرد من أي خبرة طيران على الإطلاق في مجال الطيران وصولاً إلى الحصول على ATPL ، مع جميع المتطلبات اللازمة ليتم اختيارها من قبل شركة طيران تجارية. تم اعتماد دورة ATPL المتكاملة لأكاديمية طيران الخليج (EASA) وتم تصميمها لتزويدك بالمعرفة والخبرة الدقيقة لتلبية متطلبات جميع شركات الطيران الكبرى في جميع أنحاء العالم. بمجرد الانتهاء من هذه الدورة ، ستكون جاهزًا لشغل المقعد المناسب في جميع شركات الطيران الكبرى!"
