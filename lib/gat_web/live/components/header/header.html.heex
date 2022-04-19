@@ -7,15 +7,15 @@
           <span class="sr-only">Workflow</span>
           <img class="w-auto h-16" src={Routes.static_path(@socket, "/images/logo.png")} alt="">
         <% end %>
-        <div class="hidden ms-10 space-s-8 lg:block">
+        <div class="hidden ml-10 space-x-8 rtl:mr-10 rtl:space-x-reverse lg:block">
           <%= for {route, label} <- nav_items() do %>
-             <%= live_patch(label, to: route, class: "text-base font-medium text-white hover:text-indigo-50") %>
+             <%= live_redirect(label, to: route, class: "text-base font-medium text-white hover:text-indigo-50") %>
           <% end %>
         </div>
       </div>
       <.locale_btn route={@locale_route} locale={(@locale == "ar" && "en") || "ar"} />
     </div>
-    <div class="flex flex-wrap justify-center py-4 space-s-6 lg:hidden">
+    <div class="flex flex-wrap justify-center py-4 space-x-6 rtl:space-x-reverse lg:hidden">
       <%= for {route, label} <- nav_items() do %>
           <%= live_patch(label, to: route, class: "text-base font-medium text-white hover:text-indigo-50") %>
       <% end %>

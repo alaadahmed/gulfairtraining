@@ -25,11 +25,13 @@ msgid "About"
 msgstr "عنا"
 
 #: lib/gat_web/live/components/footer/footer.html.heex:9
-#: lib/gat_web/live/pages.ex:42
+#: lib/gat_web/live/not_found_live.ex:46 lib/gat_web/live/pages.ex:42
 msgid "Contact"
 msgstr "تواصل معنا"
 
-#: lib/gat_web/live/components/header/header.ex:9 lib/gat_web/live/pages.ex:39
+#: lib/gat_web/live/components/header/header.ex:9
+#: lib/gat_web/live/not_found_live.ex:41 lib/gat_web/live/pages.ex:39
+#: lib/gat_web/live/pages.ex:64
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -110,7 +112,7 @@ msgstr "أكاديمية طيران الخليج هي أول منظمة تدري
 
 #: lib/gat_web/live/components/footer/footer.html.heex:29
 msgid "Gulf Air Training. All rights reserved."
-msgstr "جلف إير تريننج. جميع الحقوق محفوظة."
+msgstr "طيران الخليج للتدريب. جميع الحقوق محفوظة."
 
 #: lib/gat_web/live/pages/why_us/why_us.html.heex:41
 msgid "Located in one of the best districts in Athens, Gulf Air academy is the only academy with its headquarters & operation in Athens providing quality experience, premises and ease of life for our students."
@@ -388,7 +390,7 @@ msgstr " | طيران الخليج للتدريب"
 msgid "FAQs"
 msgstr "اسئلة واجوبة"
 
-#: lib/gat/training/data.ex:8 lib/gat_web/live/pages/contact/contact.ex:69
+#: lib/gat_web/live/pages/contact/contact.ex:69
 msgid "ATPL Integrated"
 msgstr ""
 
@@ -414,8 +416,20 @@ msgstr "الموضوع"
 
 #: lib/gat_web/live/course_live/show.html.heex:60
 msgid "Requirements"
-msgstr ""
+msgstr "متطلبات الدورة"
 
-#: lib/gat/training/data.ex:10
-msgid "This course is designed to get an individual from absolutely no flight experience in aviation all the way to obtaining the ATPL, with all the necessary requirements to be selected by a Commercial Airline. Gulf Air Academy’s Integrated ATPL Course is (EASA) approved & designed to give you the exact knowledge and expertise to meet the requirements of all the major airline companies around the world. Once you finish this course, you will be ready to take a right seat in all the major airlines!"
-msgstr "تم تصميم هذه الدورة للحصول على فرد من أي خبرة طيران على الإطلاق في مجال الطيران وصولاً إلى الحصول على ATPL ، مع جميع المتطلبات اللازمة ليتم اختيارها من قبل شركة طيران تجارية. تم اعتماد دورة ATPL المتكاملة لأكاديمية طيران الخليج (EASA) وتم تصميمها لتزويدك بالمعرفة والخبرة الدقيقة لتلبية متطلبات جميع شركات الطيران الكبرى في جميع أنحاء العالم. بمجرد الانتهاء من هذه الدورة ، ستكون جاهزًا لشغل المقعد المناسب في جميع شركات الطيران الكبرى!"
+#: lib/gat_web/live/not_found_live.ex:24
+msgid "404 error"
+msgstr "خطأ 404"
+
+#: lib/gat_web/live/not_found_live.ex:33
+msgid "Go back home"
+msgstr "عودة للصفحة الرئيسية"
+
+#: lib/gat_web/live/not_found_live.ex:26
+msgid "Page not found."
+msgstr "الصفحة غير موجودة."
+
+#: lib/gat_web/live/not_found_live.ex:29
+msgid "Sorry, we couldn’t find the page you’re looking for."
+msgstr "عفواً، لم نستطع العثور على الصفحة التي تبحث عنها."

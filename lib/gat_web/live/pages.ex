@@ -61,7 +61,7 @@ defmodule GATWeb.Pages do
              Routes.course_show_path(socket, :show, params["id"], locale: locale)}
 
           {_, _} ->
-            {gettext("Home"), Routes.page_path(socket, :home), locale: locale}
+            {gettext("Home"), Routes.page_path(socket, :home, locale: locale)}
         end
       end)
 

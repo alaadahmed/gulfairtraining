@@ -15,6 +15,9 @@ module.exports = {
       backgroundPosition: {
         rtl: 'left 0.5rem center',
       },
+      variants: {
+        space: ['responsive', 'direction'],
+      },
     },
   },
   plugins: [

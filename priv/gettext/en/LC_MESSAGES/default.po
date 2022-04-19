@@ -18,13 +18,16 @@ msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/footer/footer.html.heex:9
+#: lib/gat_web/live/not_found_live.ex:46
 #: lib/gat_web/live/pages.ex:42
 msgid "Contact"
 msgstr ""
 
 #, elixir-autogen, elixir-format
 #: lib/gat_web/live/components/header/header.ex:9
+#: lib/gat_web/live/not_found_live.ex:41
 #: lib/gat_web/live/pages.ex:39
+#: lib/gat_web/live/pages.ex:64
 msgid "Home"
 msgstr ""
 
@@ -444,7 +447,6 @@ msgid "FAQs"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat/training/data.ex:8
 #: lib/gat_web/live/pages/contact/contact.ex:69
 msgid "ATPL Integrated"
 msgstr ""
@@ -480,6 +482,21 @@ msgid "Requirements"
 msgstr ""
 
 #, elixir-autogen, elixir-format
-#: lib/gat/training/data.ex:10
-msgid "This course is designed to get an individual from absolutely no flight experience in aviation all the way to obtaining the ATPL, with all the necessary requirements to be selected by a Commercial Airline. Gulf Air Academy’s Integrated ATPL Course is (EASA) approved & designed to give you the exact knowledge and expertise to meet the requirements of all the major airline companies around the world. Once you finish this course, you will be ready to take a right seat in all the major airlines!"
+#: lib/gat_web/live/not_found_live.ex:24
+msgid "404 error"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/gat_web/live/not_found_live.ex:33
+msgid "Go back home"
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/gat_web/live/not_found_live.ex:26
+msgid "Page not found."
+msgstr ""
+
+#, elixir-autogen, elixir-format
+#: lib/gat_web/live/not_found_live.ex:29
+msgid "Sorry, we couldn’t find the page you’re looking for."
 msgstr ""
