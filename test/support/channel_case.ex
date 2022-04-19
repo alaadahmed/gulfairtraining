@@ -28,9 +28,9 @@ defmodule GATWeb.ChannelCase do
     end
   end
 
-  setup tags do
-    pid = Ecto.Adapters.SQL.Sandbox.start_owner!(GAT.Repo, shared: not tags[:async])
-    on_exit(fn -> Ecto.Adapters.SQL.Sandbox.stop_owner(pid) end)
-    :ok
-  end
+  # setup tags do
+  #   # pid = Ecto.Adapters.SQL.Sandbox.start_owner!(GAT.Repo, shared: not tags[:async])
+  #   # on_exit(fn -> Ecto.Adapters.SQL.Sandbox.stop_owner(pid) end)
+  #   :ok
+  # end
 end
