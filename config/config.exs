@@ -7,11 +7,6 @@
 # General application configuration
 import Config
 
-config :gat,
-  namespace: GAT,
-  ecto_repos: [GAT.Repo],
-  generators: [binary_id: true]
-
 # Configures the endpoint
 config :gat, GATWeb.Endpoint,
   url: [host: "localhost"],
